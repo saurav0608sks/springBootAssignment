@@ -1,0 +1,14 @@
+server:
+  port: 4001
+
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      expose: .*
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: true
+    service-url:
+      defaultZone: localhost:5001/eureka

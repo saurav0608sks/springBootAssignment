@@ -18,6 +18,6 @@ spring:
       retry:
         enabled: true
   datasource:
-    url: jdbc:mysql://localhost/assignment
+    url: jdbc:mysql://localhost:3306/assignment
     username: root
     password: root

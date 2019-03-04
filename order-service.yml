@@ -3,7 +3,9 @@ server:
 
 management:
   endpoints:
-    enabled-by-default: false
+    enabled-by-default: true
+    web:
+      expose: .*
     
 eureka:
   datasource:

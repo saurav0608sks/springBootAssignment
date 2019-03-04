@@ -3,11 +3,11 @@ server:
 
 management:
   endpoints:
-    enabled-by-default: true
-
+    enabled-by-default: false
+    
 eureka:
   datasource:
-    url: jdbc:mysql://localhost/micro
+    url: jdbc:mysql://localhost:3306/assignment
     username: root
     password: root
   jpa:

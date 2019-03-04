@@ -12,3 +12,12 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: localhost:5001/eureka
+spring:
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
+  datasource:
+    url: jdbc:mysql://localhost/assignment
+    username: root
+    password: root

@@ -4,8 +4,7 @@ server:
 management:
   endpoints:
     enabled-by-default: true
-    web:
-      expose: .*
+
 eureka:
   client:
     fetch-registry: false
